@@ -3,8 +3,8 @@ A not so robust script for harvesting the credentials of the Me and My Girlfrien
 
 # Usage
 ## Obtain authenticated session cookie
-**Option 1:** Register an account, then login and copy the session cookie's value from your network tab of the developer tools.
-**Option 2:** Navigate to `http://x.x.x.x/misc/process.php?act=login` the app will bypass login, then copy the session cookie's value from your network tab of the developer tools.
+- **Option 1:** Register an account, then login and copy the session cookie's value from your network tab of the developer tools.
+- **Option 2:** Navigate to `http://x.x.x.x/misc/process.php?act=login` the app will bypass login, then copy the session cookie's value from your network tab of the developer tools.
 
 ## Run scrape.py
 ```
