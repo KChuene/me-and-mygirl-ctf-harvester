@@ -1,5 +1,5 @@
 # MeAndMyGirl-CTF-Creds-Harvester
-A not so robust script for harvesting the credentials of the Me and My Girlfriend CTF's web app accounts. The script achieves this by exploiting the parameter tampering privilege escalation flaw at `http://x.x.x.x/index.php?page=profile&user_id=x`.
+A not so robust script for harvesting the credentials of the Me and My Girlfriend CTF's web app accounts. The script achieves this by exploiting the parameter tampering privilege escalation flaw at `http://x.x.x.x/index.php?page=profile&user_id=x`. The results are written to a `master.*`, `unames.*` and `pwords.*` files the `unames` and `pwords` can be use with `hydra` to bruteforce the ssh service of the VM. 
 
 # Usage
 ## Obtain authenticated session cookie
